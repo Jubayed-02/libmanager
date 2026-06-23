@@ -1,20 +1,91 @@
-# React + Vite
+# 📚 Library Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-18.3-blue?logo=react)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-purple?logo=bootstrap)
+![Vite](https://img.shields.io/badge/Vite-5.0-646CFF?logo=vite)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-Currently, two official plugins are available:
+A full-featured Library Management System built with React, featuring real-time statistics, book/member management, borrowing tracking, and a customizable theme system with light/dark modes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Dashboard Screenshot](https://via.placeholder.com/800x400/0d6efd/ffffff?text=Library+Management+System+Dashboard)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📊 Dashboard
+- Real-time statistics (total books, borrowed books, active members, overdue returns)
+- Recent activity feed tracking all library operations
+- Popular books ranking based on borrow count
+- Quick action buttons for common tasks
 
-## Expanding the ESLint configuration
+### 📚 Book Management
+- **CRUD Operations**: Add, edit, delete books with form validation
+- **Advanced Search**: Search by title, author, or ISBN
+- **Multi-filter System**: Filter by category and availability status
+- **Grid/List Views**: Toggle between viewing modes
+- **Borrowing System**: Issue and return books with tracking
+- **Status Indicators**: Available, Borrowed, Reserved with color coding
+- **Pagination**: Navigate through large book collections
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 👥 Member Management
+- Add, edit, and remove library members
+- Track borrowing history per member
+- Search members by name, email, or member ID
+- Active/Inactive status management
+- Member profile with contact details
 
-## Dependencies
+### 🎨 Theme Customization
+- **Light/Dark Mode Toggle**: Switch between light and dark themes
+- **Section-wise Customization**:
+  - Navigation bar color (10+ options)
+  - Background color (10+ options)
+  - Card/Container color (10+ options)
+  - Accent color (10+ options)
+- **Smart Defaults**: Each mode has optimized default colors
+- **Persistent Settings**: All preferences saved to localStorage
+- **Live Preview**: See changes in real-time
 
-npm install react-bootstrap bootstrap bootstrap-icons react-router-dom react-icons uuid
+### 💾 Data Management
+- **Local Storage**: All data persists across browser sessions
+- **Sample Data**: Pre-loaded with demo books, members, and activities
+- **Activity Logging**: Complete history of all library operations
+- **Toast Notifications**: User feedback for all actions
+
+## 📸 Screenshots
+
+### Dashboard
+![Dashboard](https://via.placeholder.com/800x400/198754/ffffff?text=Dashboard+View)
+
+### Books Management
+![Books](https://via.placeholder.com/800x400/6f42c1/ffffff?text=Books+Management)
+
+### Theme Customization
+![Theme](https://via.placeholder.com/800x400/fd7e14/ffffff?text=Theme+Customizer)
+
+### Dark Mode
+![Dark Mode](https://via.placeholder.com/800x400/1a1d23/e1e4e8?text=Dark+Mode)
+
+## 🛠️ Tech Stack
+
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| React | 18.3 | Frontend Framework |
+| React Router DOM | 6.23 | Routing |
+| React Bootstrap | 2.10 | UI Components |
+| Bootstrap | 5.3 | CSS Framework |
+| Bootstrap Icons | 1.11 | Icons |
+| React Icons | 5.2 | Additional Icons |
+| UUID | 9.0 | Unique ID Generation |
+| Vite | 5.0 | Build Tool |
+
+## 📦 Installation
+
+### Prerequisites
+- Node.js (v16 or higher)
+- npm (v7 or higher)
+
+### Setup Instructions
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/YOUR_USERNAME/library-management-system.git
+cd library-management-system
